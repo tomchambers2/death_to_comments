@@ -1,5 +1,3 @@
-console.log('we loaded')
-
 var killComments = function() {
 	console.log('hi')
 	var values = ['comments','comments_entry','comment','comment-text','comment-list-module','zPa g9','comments-iframe-container'];
@@ -12,12 +10,9 @@ var killComments = function() {
 			var classes = document.getElementsByClassName(values[i]);
 			for (var l=0;l<classes.length;l+=1) {
 				elements.push(classes[l]);
-				console.log('added',classes[l]);
 			}
 		}
 	}
-
-	console.log(elements);
 
 	for (var j=0;j<elements.length;j+=1) {
 		console.log('will kill',elements[j])
