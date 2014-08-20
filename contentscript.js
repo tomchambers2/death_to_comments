@@ -2,7 +2,7 @@ console.log('we loaded')
 
 var killComments = function() {
 	console.log('hi')
-	var values = ['comments','comments_entry','comment','comment-text','comment-list-module'];
+	var values = ['comments','comments_entry','comment','comment-text','comment-list-module','zPa g9','comments-iframe-container'];
 	var elements = [];
 	for (var i=0;i<values.length;i+=1) {
 		if (document.getElementById(values[i])) {
